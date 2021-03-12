@@ -1,1 +1,3 @@
-# Creador-de-Cuestionarios-app
+# creación de cuestionarios
+
+App para la creaccion y la interacion de cuestionarios
