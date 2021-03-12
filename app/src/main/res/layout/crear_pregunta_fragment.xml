@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo_nueva_pregunta"
+        android:text="Crear Pregunta"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edit_text_pregunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pregunta_hint_edittext"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_respuestas"
+        android:text="Escribe las respuestas"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/respuesta_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la respuesta 1"/>
+    <EditText
+        android:id="@+id/respuesta_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la respuesta 2"/>
+
+    <EditText
+        android:id="@+id/respuesta_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la respuesta 3"/>
+
+    <EditText
+        android:id="@+id/respuesta_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe la respuesta 4"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view_respuesta_correcta"
+        android:text="Selecciona la respuesta correcta"
+        android:textSize="20sp" />
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton android:id="@+id/boton_respuesta_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uno"
+            />
+        <RadioButton android:id="@+id/boton_respuesta_dos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dos"
+            />
+        <RadioButton android:id="@+id/boton_respuesta_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tres"
+            />
+        <RadioButton android:id="@+id/boton_respuesta_cuatro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cuatro"
+            />
+    </RadioGroup>
+
+        <Button
+        android:id="@+id/Ok_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"/>
+
+</LinearLayout>
+

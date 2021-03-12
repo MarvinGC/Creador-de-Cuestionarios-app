@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Creador de cuestionarios</string>
+    <string name="question_text">Esta es una pregunta</string>
+    <string name="opcion_1">Esta es la opcion_1</string>
+    <string name="opcion_2">Esta es la opcion_2</string>
+    <string name="opcion_3">Esta es la opcion_3</string>
+    <string name="opcion_4">Esta es la opcion_4</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+    <string name="pregunta_hint_edittext">Escriba la pregunta aqui</string>
+    <string name="nueva_pregunta">Nueva Pregunta</string>
+    <string name="editar_pregunta">Editar</string>
+    <string name="borrar_pregunta">Borrar</string>
+</resources>
